@@ -2,7 +2,8 @@ import numpy as np
 
 class KNN:
     def __init__(self, data, k):
-        """A class for the supervised learning-algorithm KNN. Implemented using only numpy. KNN is a lazy learner meaning that all calculations is done when predicting new observations.
+        """A class for the supervised learning-algorithm KNN. Implemented using only numpy. KNN is
+        a lazy learner meaning that all calculations is done when predicting new observations.
         
         Attributes
         ----------
@@ -26,7 +27,8 @@ class KNN:
         Parameters
         ----------
         new_points : (numpy array)
-            An array of arrays containing all the points to predict. If only one point is to be predicted, it still has to be an array of array:
+            An array of arrays containing all the points to predict. If only one point is to be
+            predicted, it still has to be an array of array:
                                    e.g. new_points = np.array([[feature 1, ..., feature 2]])
         
         Returns
