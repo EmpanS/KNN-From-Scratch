@@ -25,7 +25,7 @@ from knn import KNN
 ```
 
 ## Lessons Learned
-In this small project I got to implement the KNN-algorithm from scratch. It was suprisingly little code. I got to enhance my skills in numpy and learned some tricks to avoid performance issues due to for-loops. For example, when calculating the distance from one point to all other points in the model, I used only numpy arrays instead of looping and calculating the euclidean distance one by one.
+In this small project I got to implement the KNN-algorithm from scratch. It was suprisingly little code. I got to enhance my skills in numpy and learned some tricks to avoid performance issues due to for-loops. For example, when calculating the distance from one point to all other points in the model, I used numpy arrays to efficiently calculate all distances at once instead of looping and calculating the euclidean distance one by one.
 
 Any comments, suggestions or feedback is heavily appreciated. Thanks and happy ML!
 
