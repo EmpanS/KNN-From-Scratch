@@ -19,7 +19,10 @@ $ conda env create -f knn.yml
 ```console
 $ conda activate knn
 ```
-4. Now, you can either go through the example iPython notebook or play with the KNN class by simply importing the class. 
+4. Now, you can either go through the example iPython notebook or play with the KNN class by simply:
+```python
+from knn import KNN
+```
 
 ## Lessons Learned
 In this small project I got to implement the KNN-algorithm from scratch. It was suprisingly little code. I got to enhance my skills in numpy and learned some tricks to avoid performance issues due to for-loops. For example, when calculating the distance from one point to all other points in the model, I used only numpy arrays instead of looping and calculating the euclidean distance one by one.
