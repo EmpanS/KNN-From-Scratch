@@ -4,7 +4,7 @@
 ## Content
 This project contains three files:
 1. Conda environment (.yml file): [knn.yml](https://github.com/EmpanS/KNN-From-Scratch/blob/master/knn.yml)
-2. The Class KNN (.py file), contains the KNN-algorithm: [knn.py](https://github.com/EmpanS/KNN-From-Scratch/blob/master/knn.py)
+2. The class KNN (.py file), contains the KNN-algorithm: [knn.py](https://github.com/EmpanS/KNN-From-Scratch/blob/master/knn.py)
 3. An example notebook, containing two toy examples on how to use the class: [example.ipynb](https://github.com/EmpanS/KNN-From-Scratch/blob/master/example.ipynb)
 
 The Conda environment is only necessary if one wants to run the jupyter notebook. To use the class [KNN](https://github.com/EmpanS/KNN-From-Scratch/blob/master/knn.py), one only need a numpy installation. The class was built using numpy-version 1.18.1.
